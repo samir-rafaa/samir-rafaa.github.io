@@ -1,0 +1,7 @@
+title: DZ Tech with Samir
+description: Programming, Tech & Tutorials from Algeria by Samir Rafa
+url: "https://samir-rafaa-dz.me"
+author: Samir Rafa
+theme: minima
+plugins:
+    - jekyll-feed
