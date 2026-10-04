@@ -1,0 +1,16 @@
+---
+layout: page
+title: DZ Tech with Samir
+permalink: /blog/
+---
+
+<h1>مرحبا بكم في DZ Tech with Samir</h1>
+<p>مدونة للبرمجة والتقنية من الجزائر</p>
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%Y-%m-%d" }}
+    </li>
+  {% endfor %}
+</ul>
