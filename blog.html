@@ -8,9 +8,17 @@ permalink: /blog/
 <p>مدونة للبرمجة والتقنية من الجزائر</p>
 
 <ul>
+  <li style="margin-bottom:20px; border:1px solid #333; padding:15px; border-radius:10px; background:#111;">
+    <a href="/article-samir-rafaa.html" style="color:#00ff88; font-weight:bold; font-size:19px; text-decoration:none;">
+      سمير رافع (Samir Rafaa) - رؤية رائدة في التحليل المالي والاستثمار الرقمي
+    </a>
+    <br>
+    <small style="color:#888;">12 أكتوبر 2026 - مقال جديد من Telegraph - جديد 🔥</small>
+  </li>
+
   {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%Y-%m-%d" }}
-    </li>
+  <li>
+    <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%Y-%m-%d" }}
+  </li>
   {% endfor %}
 </ul>
